@@ -13,15 +13,10 @@ The list of permissions required by the app
     android.permission.CHANGE_NETWORK_STATE
     android.permission.SET_WALLPAPER
 
-<br/>
+android.permission.INTERNET -- The app needs to connect to NASA servers to fetch images. 
+android.permission.ACCESS_WIFI_STATE, ACCESS_NETWORK_STATE, CHANGE_NETWORK_STATE -- The app tracks network availability. If the network is unavailable some functionality must be turned off. 
 
-| Permission | Why it is required |
-| :---: | --- |
-| `android.permission.INTERNET` | The app needs to connect to NASA servers to fetch images. |
-| `android.permission.ACCESS_WIFI_STATE ACCESS_NETWORK_STATE CHANGE_NETWORK_STATE` | The app tracks network availability. If the network is unavailable some functionality must be turned off. |
-| `android.permission.SET_WALLPAPER` | One of the features of this app is its ability to set your device's wallpaper. Without this permition, this functionality won't work. |
-
- <hr style="border:1px solid gray">
+android.permission.SET_WALLPAPER -- One of the features of this app is its ability to set your device's wallpaper. Without this permition, this functionality won't work. 
 
 If you have any questios, conserns or sugestions, feel free to contact me:
 TheTinkerersShop@gmail.com
