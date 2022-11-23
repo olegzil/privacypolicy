@@ -1,0 +1,27 @@
+## StarWatch: Privacy policy
+
+Welcome to the StarWatch app for Android!
+
+I have written no code to collect any personally identifiable information. The app connects to the NASA servers and downloads images based on a date range specified by the user. 
+
+### Explanation of permissions requested in the app
+
+The list of permissions required by the app 
+    android.permission.INTERNET
+    android.permission.ACCESS_WIFI_STATE
+    android.permission.ACCESS_NETWORK_STATE
+    android.permission.CHANGE_NETWORK_STATE
+    android.permission.SET_WALLPAPER
+
+<br/>
+
+| Permission | Why it is required |
+| :---: | --- |
+| `android.permission.INTERNET` | The app needs to connect to NASA servers to fetch images. |
+| `android.permission.ACCESS_WIFI_STATE ACCESS_NETWORK_STATE CHANGE_NETWORK_STATE` | The app tracks network availability. If the network is unavailable some functionality must be turned off. |
+| `android.permission.SET_WALLPAPER` | One of the features of this app is its ability to set your device's wallpaper. Without this permition, this functionality won't work. |
+
+ <hr style="border:1px solid gray">
+
+If you have any questios, conserns or sugestions, feel free to contact me:
+TheTinkerersShop@gmail.com
